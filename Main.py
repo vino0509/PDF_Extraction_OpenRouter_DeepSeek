@@ -62,7 +62,7 @@ def OCR_Editable_Scaned(inputPath, outputpath):
                         #output += page.extractText()
                         output += page.extract_text()
 
-                    easygui.msgbox(output[1], title= "Test")
+                    #easygui.msgbox(output[1], title= "Test")
 
                     #Scaned pdf to textS
                     if len(output) == 0:
